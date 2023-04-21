@@ -2,6 +2,7 @@ export * as AddNode from './AddNode'
 export * as AmpNode from './AmpNode'
 export * as ConstNode from './ConstNode'
 export * as DacNode from './DacNode'
+export * as FilterNode from './FilterNode'
 export * as MulNode from './MulNode'
 export * as OscNode from './OscNode'
 export * as XYNode from './XYNode'
@@ -11,6 +12,7 @@ import AddNode from './AddNode'
 import AmpNode from './AmpNode'
 import ConstNode from './ConstNode'
 import DacNode from './DacNode'
+import FilterNode from './FilterNode'
 import MulNode from './MulNode'
 import OscNode from './OscNode'
 import SampleNode from './SampleNode'
@@ -25,6 +27,7 @@ export const nodeTypes = {
     AmpNode,
     ConstNode,
     DacNode,
+    FilterNode,
     MulNode,
     OscNode,
     XYNode,

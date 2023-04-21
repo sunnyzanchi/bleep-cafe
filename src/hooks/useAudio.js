@@ -2,6 +2,7 @@ import AddNode, * as Add from '../components/nodes/AddNode'
 import AmpNode, * as Amp from '../components/nodes/AmpNode'
 import ConstNode, * as Const from '../components/nodes/ConstNode'
 import DacNode, * as Dac from '../components/nodes/DacNode'
+import FilterNode, * as Filter from '../components/nodes/FilterNode'
 import MulNode, * as Mul from '../components/Nodes/MulNode'
 import OscNode, * as Osc from '../components/nodes/OscNode'
 import SampleNode, * as Sample from '../components/nodes/SampleNode'
@@ -53,6 +54,7 @@ const nameToNode = {
     [AmpNode.name]: Amp,
     [ConstNode.name]: Const,
     [DacNode.name]: Dac,
+    [FilterNode.name]: Filter,
     [MulNode.name]: Mul,
     [OscNode.name]: Osc,
     [XYNode.name]: XY,

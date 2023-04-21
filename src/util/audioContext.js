@@ -2,3 +2,8 @@
 // so we'll just have a single top-level constant that every call to `useAudio`
 // can reuse.
 export const ctx = new AudioContext()
+
+window.addEventListener('click', () => {
+  
+ctx.resume()
+})

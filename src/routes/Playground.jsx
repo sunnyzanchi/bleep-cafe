@@ -3,6 +3,7 @@ import * as Amp from '../components/nodes/AmpNode'
 import * as Const from '../components/nodes/ConstNode'
 import * as ContextMenu from '../components/ContextMenu'
 import * as Dac from '../components/nodes/DacNode'
+import * as Filter from '../components/nodes/FilterNode'
 import * as Mul from '../components/nodes/MulNode'
 import * as Osc from '../components/nodes/OscNode'
 import * as XY from '../components/nodes/XYNode'
@@ -84,6 +85,12 @@ export default function Playground() {
             label: 'amp',
             shortcut: 'A',
             onSelect: createNode(Amp.asReactFlowNode),
+        },
+        {
+            type: 'item',
+            label: 'filter',
+            shortcut: 'F',
+            onSelect: createNode(Filter.asReactFlowNode),
         },
         { type: 'divider' },
         {
